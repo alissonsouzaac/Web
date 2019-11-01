@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML course</title>
+    <meta name="description" content="this is where we place descriptions" />
+    <style>
+        nav {
+            background: #333;
+            width: 100%;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+            width: 150px;
+        }
+        ul li a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background: #222;
+            color: white;
+            padding: 15px 0;
+        }
+        ul li a:hover {
+            background: #000;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        #wrapper {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        header {
+            background: #444;
+            padding: 25px;
+            color: #fff;
+            font-size: 24px;
+        }
+        img {
+            float: left;
+            margin: 10px;
+        }
+        footer {
+            background: #ddd;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header> My Company Name </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a>
+                </li>
+                <li><a href="#">About</a>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="container">
+            <p><img src="http://lorempixel.com/400/200" /> Lorem ipsum dolor sit amet, eam propriae scaevola torquatos ea, nec et agam corpora nominavi. <span class="highlight">Civibus sapientem</span> corrumpit duo ei, mea epicuri assueverit conclusionemque no, justo aliquip interesset vis et. Pri habeo evertitur ei, et vis altera persius hendrerit. Munere cotidieque vix eu, ut iuvaret inermis referrentur pri. Sint principes an eos, ut has nisl soleat, in vel mentitum torquatos. Vix ea falli tempor patrioque.</p>
+            <p> Eam latine convenire ea, sea cu ocurreret vituperata, pro at iriure scripta. Ius ea quas efficiantur, id alii mucius mea. Et his aliquip consulatu, vis at minim deleniti maiestatis, cum tritani habemus an. Detracto cotidieque no per, in iuvaret insolens platonem ius.</p>
+            <p> Lorem ipsum dolor sit amet, at sale facilisi vis, eu cum vide munere omittam. Fabulas euripidis appellantur in vim. Quodsi contentiones his id, ea nemore albucius cum. Ne odio offendit eum, mei in eros albucius.</p>
+            <p> Iusto affert possit cu eos. Ius molestie fabellas te, ut sit augue delenit propriae. Nec vocibus suscipit in. Eu nostro epicuri eum, intellegat eloquentiam vix at, te maluisset adipiscing ius. Vel no magna forensibus, vim iriure cotidieque eu. Sea fabellas scriptorem at, duo ex malis iisque.</p>
+            <p> Eu ius ignota facilisi. Dicat consul nusquam vel at, in mei nibh dolores concludaturque. Possim maiorum ne est. Qui enim graeci pertinax id. Te nec tantas veritus, ad dolor tantas labores eos, sea summo omnes habemus ea. Eos ipsum aliquip ocurreret id, pro no omittam sententiae, cu mel odio omnesque.</p>
+        </section>
+        <footer>Copyright 2016 <a href="#">contact us</a> <a href="#">about us</a> </footer>
+    </div>
+</body>
+</html>
